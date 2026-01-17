@@ -1061,3 +1061,29 @@ document.addEventListener('DOMContentLoaded', () => {
     
     console.log('✅ Portfolio Ready!');
 });
+// Add this function at the VERY END of script.js file
+function resetForm() {
+    // Small delay to ensure form submits before resetting
+    setTimeout(() => {
+        // Get form
+        const form = document.getElementById('contact-form');
+        if (form) {
+            // Reset all form fields
+            form.reset();
+            
+            // Remove success/error classes from inputs
+            const inputs = form.querySelectorAll('input, textarea');
+            inputs.forEach(input => {
+                input.classList.remove('input-success');
+                input.classList.remove('input-error');
+            });
+            
+            // Reset button to normal state
+            const btn = form.querySelector('.terminal-btn');
+            if (btn) {
+                btn.innerHTML = '<span class="prompt">$</span> ./send_message.sh';
+                btn.disabled = false;
+            }
+        }
+    }, 100); // 100ms delay
+}
