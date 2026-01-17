@@ -160,7 +160,6 @@ class EnhancedStarryBackground {
             { text: "=>", color: 0x00ddff, size: 3.5 },
             { text: "fn()", color: 0xaa00ff, size: 3.5 },
             { text: "AI", color: 0xff0088, size: 4 },
-            { text: "3D", color: 0x00ff88, size: 4 },
             { text: "API", color: 0x88ff00, size: 3.5 }
         ];
         
