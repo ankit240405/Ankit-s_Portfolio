@@ -407,7 +407,6 @@ class TypingEffect {
        "Engineering student focused on scalable systems and real-time applications",
        "Solved 350+ LeetCode problems",
        "B.Tech (ECE) @ NSUT Delhi | 6th Semester | CGPA: 8.44 (Till 5th Semester)",
-       "Built AI Resume Analyzer Platform (FirstHire)",
       "Building scalable, high-performance systems with real-time capabilities",
       "Executive Council Member (2024-25) - Subhasha (NSUT)"
 ];
