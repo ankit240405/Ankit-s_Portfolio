@@ -464,12 +464,11 @@ class ProjectsManager {
 this.projects = [
     { 
         title: "FirstHire", 
-        subtitle: "AI Powered ATS Resume Analyzer & Career Mentor",
-        description: `**Built an AI-powered platform with secure authentication and authorization.**
+        subtitle: "AI-Powered ATS Resume Analyzer & Career Mentor",
+        description: `**Built an AI-powered platform with secure authentication and authorization, enabling resume upload (PDF/DOCX) and structured ATS scoring with section-wise analysis.**
 
-• Implemented resume upload (PDF/DOCX) with structured ATS scoring and section-wise analysis
-• Integrated OpenAI APIs and chatbot for resume parsing, career guidance, and improvement recommendations
-• Designed a dashboard with scan history, performance trends, skill gap analysis, and downloadable ATS reports`, 
+• Used OpenAI APIs and Noupe Chatbot for resume parsing, improvement recommendations, and career guidance.  
+• Created a user dashboard with scan history, improvement trends, skill gap statistics, and downloadable ATS reports.`, 
         tech: ["MERN Stack", "OpenAI API", "Chatbot"], 
         icon: '<i class="fas fa-robot"></i>',
         liveDemo: true,
@@ -478,11 +477,10 @@ this.projects = [
     { 
         title: "YipYap", 
         subtitle: "Real-Time Chat Web Application",
-        description: `**Developed a real-time chat platform with secure authentication using JWT and bcrypt.**
+        description: `**Developed a real-time chat application with secure user authentication and session management using JWT and bcrypt.**
 
-• Implemented live messaging features: online presence, typing indicators, image sharing, emoji support
-• Added profile customization and integrated DaisyUI for multiple UI themes
-• Built with MERN Stack and Socket.io for real-time communication`, 
+• Implemented core messaging features including online user presence, typing indicators, image sharing, and emoji support.  
+• Enabled user profile customization and integrated DaisyUI to support multiple UI themes for an enhanced user experience.`, 
         tech: ["MERN Stack", "Socket.io"], 
         icon: '<i class="fas fa-comments"></i>',
         liveDemo: true,
@@ -490,12 +488,11 @@ this.projects = [
     },
     { 
         title: "SereneStay", 
-        subtitle: "Travel Listing Web Application",
-        description: `**Built a property listing platform with full CRUD and review functionality.**
+        subtitle: "Travel Listing Web App",
+        description: `**Developed a web app for property listings with add, edit, delete, and review functionality using Node.js and MongoDB.**
 
-• Implemented secure authentication and authorization system
-• Integrated Cloudinary and Multer for image upload and storage
-• Designed responsive UI using EJS templates and Bootstrap`, 
+• Implemented secure authentication, authorization, and image upload with Cloudinary and Multer.  
+• Designed a responsive UI using EJS and Bootstrap, ensuring seamless experience across all devices.`, 
         tech: ["MERN Stack", "EJS", "Cloudinary"], 
         icon: '<i class="fas fa-hotel"></i>',
         liveDemo: true,
@@ -503,18 +500,17 @@ this.projects = [
     },
     { 
         title: "Trackerr", 
-        subtitle: "Real-Time Location Sharing Application",
-        description: `**Developed a real-time map interface for live location sharing across devices.**
+        subtitle: "Real-Time Location Sharing Web App",
+        description: `**Built a real-time map interface to share user locations dynamically across multiple devices using Socket.io and the Geolocation API.**
 
-• Used Socket.io and Geolocation API for dynamic location updates
-• Optimized real-time communication performance for smooth user experience
-• Built with Node.js backend and Leaflet.js for mapping`, 
+• Improved real-time communication performance for smoother location updates across connected users.`, 
         tech: ["Node.js", "Express.js", "Leaflet.js", "Socket.io"], 
         icon: '<i class="fas fa-map-marker-alt"></i>',
         liveDemo: true,
         link: "https://trackerr-sq4i.onrender.com/"
     }
 ];
+
         this.renderProjects();
     }
     
