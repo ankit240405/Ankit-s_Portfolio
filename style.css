@@ -2016,3 +2016,27 @@ html {
         margin-bottom: 1rem;
     }
 }
+.footer-email {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 14px;
+  background: rgba(255,255,255,0.05);
+  border-radius: 6px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  color: #cfcfcf;
+  border: 1px solid transparent;
+  transition: all 0.25s ease;
+}
+
+.footer-email:hover {
+  color: #00ff9c;
+  border: 1px solid #00ff9c;
+  box-shadow: 0 0 10px rgba(0, 255, 156, 0.4);
+  background: rgba(0, 255, 156, 0.05);
+}
+
+.footer-email i {
+  font-size: 14px;
+}
