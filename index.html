@@ -47,7 +47,7 @@
                 </div>
                 <div class="terminal-body">
                     <div class="command-line">
-                        <span class="prompt">$</span> i_am
+                        <span class="prompt">$</span> whoami
                     </div>
                     <div class="output">
                         <h1 class="glow-text">&lt;ANKIT_SHARMA/&gt;</h1>
@@ -74,16 +74,102 @@
             </div>
         </section>
         
-        <section id="skills" class="section">
-            <h2 class="section-title">
-                <span class="bracket">&lt;</span> My Skills <span class="bracket">/&gt;</span>
-            </h2>
-            
-            <div class="marquee-container">
-                <div class="marquee-track">
+      <section id="skills" class="section">
+    <h2 class="section-title">
+        <span class="bracket">&lt;</span> My Skills <span class="bracket">/&gt;</span>
+    </h2>
+    
+   
+<div class="speed-controls">
+    <div class="speed-label">
+        <i class="fas fa-sliders-h"></i>
+        <span>Speed Mode:</span>
+    </div>
+    <div class="speed-buttons">
+        <button class="speed-btn active" data-speed="slow">
+            <i class="fas fa-cogs"></i>
+            <span>Detailed</span>
+        </button>
+        <button class="speed-btn" data-speed="medium">
+            <i class="fas fa-compress"></i>
+            <span>Balanced</span>
+        </button>
+        <button class="speed-btn" data-speed="fast">
+            <i class="fas fa-expand"></i>
+            <span>Quick</span>
+        </button>
+    </div>
+</div>
+    
+    <div class="marquee-container">
+        <div class="marquee-track"></div>
+    </div>
+    
+    <div class="sql-minimal">
+        <div class="terminal-window sql-window">
+            <div class="terminal-header">
+                
+                <span class="terminal-title">
+    <i class="devicon-mysql-plain" style="color: var(--primary-blue); margin-right: 8px;"></i> 
+     <span style="color: var(--primary-blue);">MySQL</span>
+</span>
+            </div>
+            <div class="terminal-body">
+                <div class="sql-connect">
+                    <div class="connect-line">
+                        <span class="prompt">$</span> mysql -u ankit -p
+                    </div>
+                    <div class="connect-line">
+                        Welcome to MySQL.
+                    </div>
+                </div>
+                
+                <div class="current-query-display">
+                    <span class="prompt">mysql></span>
+                    <span class="query-text" id="current-query">-- Select a query below --</span>
+                </div>
+                
+                <div class="query-results-minimal">
+                    <table class="results-table">
+                        <thead>
+                            <tr>
+                                <th>Category</th>
+                                <th>My Skills</th>
+                            </tr>
+                        </thead>
+                        <tbody id="query-results">
+                        </tbody>
+                    </table>
+                </div>
+                
+                <div class="query-commands-minimal">
+                    <div class="commands-title">
+                        <i class="fas fa-code"></i> Available Queries:
+                    </div>
+                    <div class="command-list">
+                        <button class="sql-cmd" data-query="SELECT * FROM programming;">
+                            Programming
+                        </button>
+                        <button class="sql-cmd" data-query="SELECT * FROM webdev;">
+                            Web Dev
+                        </button>
+                        <button class="sql-cmd" data-query="SELECT * FROM dbtools;">
+                            Tools & DB
+                        </button>
+                        <button class="sql-cmd" data-query="SELECT * FROM core;">
+                            Core Skills
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="query-status-minimal">
+                    <span class="status-dot"></span>
+                    <span id="query-status">Ready</span>
                 </div>
             </div>
-        </section>
+        </div>
+    </div>
+</section>
         
         <section id="contact" class="section">
             <h2 class="section-title">
