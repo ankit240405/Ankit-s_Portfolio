@@ -404,8 +404,8 @@ class TypingEffect {
         this.techStackItems = [
   "Engineering student focused on scalable systems and real-time applications",
   "Strong problem-solving skills with 500+ DSA problems solved across platforms",
-  "B.Tech (ECE) - Netaji Subhas University of Technology (NSUT), Delhi (Currently in 6th Semester)",
-  "CGPA: 8.44 (Till 5th Semester)",
+  "B.Tech (ECE) - Netaji Subhas University of Technology (NSUT), Delhi (Currently in 7th Semester)",
+  "CGPA: 8.57 (Till 6th Semester)",
   "Transforming concepts into functional, production-style applications"
 ];
 
